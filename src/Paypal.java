@@ -9,7 +9,7 @@ class Paypal extends Zahlungsmethode {
 
     @Override
     public void fuehreZahlungDurch(double betrag) {
-        System.out.println("Zahlung von [betrag]€ über PayPal-Konto [email] durchgeführt.");
+        System.out.println("Zahlung von " + betrag + "€ über PayPal-Konto " + this.email + "durchgeführt.");
     }
 
     // Implementiere die nötige Methode der Oberklasse.

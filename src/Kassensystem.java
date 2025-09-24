@@ -6,6 +6,9 @@ class Kassensystem {
     public void druckeBeleg(String warenkorbID) {
         System.out.println("Einfacher Beleg für Warenkorb " + warenkorbID + " gedruckt.");
     }
+    public void druckeBeleg(String warenkorbID,double gesamtsumme) {
+        System.out.println("Detaillierter Beleg für Warenkorb " + warenkorbID + "über " + gesamtsumme + "€ gedruckt.");
+    }
 
     // Überlade die Methode druckeBeleg, sodass sie zusätzlich einen
     // double-Wert
